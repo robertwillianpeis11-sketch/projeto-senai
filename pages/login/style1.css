@@ -1,0 +1,65 @@
+body {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+} 
+
+.container {
+    width: 130vh;
+    height:  79vh;      
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+
+* {
+    margin: 6px;
+    padding: 6px;
+}
+
+.login h1 {
+    margin-bottom: 10px;
+}
+
+.login  {
+    width: 147%;
+    padding: 3px;
+    margin-bottom: 35vh;
+    
+}
+
+.opcoes {   
+    display:flex;
+    justify-content:center;
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+
+button {
+    width: 36%;
+    padding: 9px;
+    background-color: purple;
+    color: white;
+    border-radius: 15%;
+    
+}
+
+.imagem {
+    width: 155%;
+    height: 96%;
+    background-color: #2b2b2b;
+    background-image: url("../../assets/fingger.webp");
+    border-radius: 29px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
