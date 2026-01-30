@@ -1,0 +1,56 @@
+/* FUNDO DA HOME COM VÍDEO FULL SCREEN */
+.bg-video-full {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-header { margin-bottom: 50px; color: #1d1d1f; }
+.home-logo { height: 50px; margin-bottom: 20px; }
+.home-header h1 { font-size: 48px; font-weight: 700; margin-bottom: 10px; }
+
+/* GRID DE MENUS (RESPONSIVO) */
+.grid-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* ESTILO DOS CARDS EM VIDRO */
+.menu-card {
+    text-decoration: none;
+    color: #1d1d1f;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card-icon { font-size: 40px; margin-bottom: 20px; }
+.menu-card h3 { font-size: 22px; margin-bottom: 10px; }
+.menu-card p { color: #515154; font-size: 14px; }
