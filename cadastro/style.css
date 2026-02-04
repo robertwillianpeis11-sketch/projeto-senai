@@ -35,11 +35,13 @@ body { background-color: #ffffff; overflow-x: hidden; }
     border-radius: 24px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
 }
+
 .form-header { display: flex; align-items: center; margin-bottom: 40px; font-weight: 600; }
 .mini-logo { height: 22px; margin-right: 10px; }
 
 .welcome-text h1 { font-size: 42px; line-height: 1.1; margin-bottom: 10px; color: #1d1d1f; }
 .welcome-text p { color: #86868b; margin-bottom: 35px; }
+
 
 .input-field {
     width: 100%;
@@ -71,6 +73,29 @@ body { background-color: #ffffff; overflow-x: hidden; }
 .form-help a { color: #5e33ff; text-decoration: none; font-weight: 500; }
 
 
+.login-side-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.purple-card {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(135deg, #a582ff, #5e33ff);
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 @media (max-width: 900px) {
     .login-side-image { display: none; }
@@ -82,13 +107,4 @@ body { background-color: #ffffff; overflow-x: hidden; }
         border: none; 
         box-shadow: none; 
     }
-}
-
-.footer {
-    background: #1d1d1f;
-    color: #fff;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 14px;
 }
